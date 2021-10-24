@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAUTY</title>
+    <link rel="stylesheet" href="style.css">
+    <!----icons-->
+    <script src="https://use.fontawesome.com/302763250b.js"></script>
+    <!---fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!------slider-->
+<script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+</head>
+
+<body>
+<div class="header">
+<div class="navbar"> 
+  <nav>
+      <ul>
+         <li><a href="#">HOME</a></li>
+         <li><a href="#">NEW</a></li>
+         <li><a href="#">BESTSELLERS</a></li>
+         <li><a href="#">SALE</a></li>
+         <li><a href="#">MAKEUP</a></li>
+         <li><a href="#">ABOUT US</a></li>
+       </ul>
+    </nav>
+    <div class="search">
+      <input type="text" name="box" placeholder="">
+      <button>search</button>
+      </div>
+    </div>
+      </div> 
+      
+      <div id="containerSlider">
+          <div id="slidingImage">
+            <div class="msg-col">
+              <h1>UPTO TO 50% OFF</h1>
+                <p>+Extra 25% off on 2 products</p>
+                <a href="">SHOP NOW</a>
+                <img src="images/0.jpeg" alt="image1">
+                </div>
+            </div>
+          <div id="slidingImage">
+            <img src="images/1.png" alt="image2" > </div>
+          <div id="slidingImage" class="msg-col">
+            <h2>HIGH PERFORMANCE SKIN CARE<br><br>Buy 2 @MRP,Get 1 FREE</h2>
+            <img src="images/3.jpg" alt="image3"> </div>
+          <div id="slidingImage" class="msg-col"> 
+            <h3>FIND YOUR SHADE</h3>
+            <img src="images/f.jpg" alt="image4"> </div>
+      </div>
+  
+      <!-- <script src=“https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js”></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+        $('#containerSlider').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            });
+        });
+    </script>
+     
+<!----free-->
+<section class="free">
+  <div class="row">
+    <div class="free-col">
+      <h1>FREE MAKEUP <br>PRODUCTS
+      WORTH <br> UP TO $28.00
+      on a <br>spend of $39.00</h1>
+      <a href="">SHOP NOW</a>
+    </div>
+    <div class="free-col">
+      <img src="images/free.png" width="300px">
+    </div>
+    <div class="free-col">
+      <h1>FREE MAKEUP<br> PRODUCTS WORTH<br>UP TO $28.00
+        <br>on a spend of $39.00</h1>
+        <a href="">SHOP NOW</a>
+    </div> 
+    <div class="free-col">
+      <img src="images/free1.png" width="300px">
+    </div>
+  </div>
+</section>
+
+<!-------shoptrends-->
+<section class="shoptrends">
+  <h2>OUR VERY BEST</h2><hr>
+    <div class="row">
+      <div class="shoptrends-col">
+        <img src="images/trend2.jpg">
+         <div class="layer">
+         <h3>W3LL PEOPLE <br>EYELINER<br>$50.00<br><i class="fa fa-star"></i><i class="fa fa-star"><i class="fa fa-star"><i class="fa fa-star-half"></i></i></i></i></h3>
+         </div>
+      </div>
+      <div class="shoptrends-col">
+       <img src="images/trend5.jpg">
+        <div class="layer">
+         <h3>HI-SHINE<br>-LIPSTICK<br>$40.00<br><i class="fa fa-star"></i><i class="fa fa-star"><i class="fa fa-star"><i class="fa fa-star-half"></i></i></i></i></h3>
+        </div>
+     </div>
+     <div class="shoptrends-col">
+       <img src="images/trend4.jpg">
+        <div class="layer">
+         <h3>MAC MATTE <br>LIPSTICK<br>$60.00<br><i class="fa fa-star"><i class="fa fa-star"><i class="fa fa-star-half"></i></i></i></h3>
+        </div>
+     </div>
+  </div>
+</section>
+
+  
+  <!----Shop by categories-->
+      <section class="shopbycategories">
+        <h1>SHOP BY CATEGORIES</h1><hr>
+        <div class="small-container">
+      <div class="row">
+        <div class="shopbycategories-col">
+          <img src="images/face.jpg">
+          <h3>FACE</h3>
+        </div>
+        <div class="shopbycategories-col">
+          <img src="images/lips.jpg">
+          <h3>LIPS</h3>
+        </div>
+        <div class="shopbycategories-col">
+          <img src="images/nails.jpg">
+          <h3>NAILS</h3>
+        </div>
+        </div>
+      </div>
+      </section>
+
+      <!----newarrivals------->
+      <section class="newarrivals">
+        <h1>NEW ARRIVALS</h1>
+        <hr>
+        <div class="row">
+          <div class="newarrivals-col">
+            <img src="images/n6.png">
+            <a href="" class="btn">Add to cart</a><br><br>
+            <h3>GLOSSIER WATERPROOF<br>LIPGLOSS<br>$25.00</h3>
+          </div>
+          <div class="newarrivals-col">
+            <img src="images/n5.png">
+            <a href="" class="btn">Add to cart</a><br><br>
+            <h3>MAYBELLINE FIT ME <br>COMPACT<br>$28.00</h3>
+          </div>
+          <div class="newarrivals-col">
+            <img src="images/n4.png">
+            <a href="" class="btn">Add to cart</a><br><br>
+            <h3>FRUITS MATTE<br>LIPSTICK<br>$39.00</h3>          
+          </div>
+          <div class="newarrivals-col">
+            <img src="images/n1.png">
+            <a href="" class="btn">Add to cart</a><br><br>
+            <h3>KYLIE SKIN <br>MOISTURIZER<br>$29.00</h3>
+          </div>
+          <div class="newarrivals-col">
+            <img src="images/n3.png">
+            <a href="" class="btn">Add to cart</a><br><br>
+            <h3>KAY ALI<br>PERFUME<br>$25.00</h3>
+            
+          </div>
+          <div class="newarrivals-col">
+            <img src="images/n2.png">
+            <a href="" class="btn">Add to cart</a><br><br>
+            <h3>HUDA BEAUTY<br>MASCARA<br>$33.00</h3>
+          </div>
+        </div>
+        <a href=""class="btn">SHOP ALL NEW ARRIVALS &#8594;</a><br><br>
+      </section>
+
+  
+      <div class="scent">
+      <img src="images/scent.jpg" width="1262px" >  
+      </div>
+
+     
+          
+      <!-------bestsellers-------->
+
+      <section class="bestsellers">
+        <h1>BEST SELLERS</h1>
+        <hr>
+        <div class="row">
+          <div class="sells-col">
+            <img src="images/b1.jpeg">
+            <a href="" class="btn">Add to cart</a><br><br>
+            <h2>MY MINI <br>ROUTINE<br>$43.00</h2>
+          </div>
+          <div class="sells-col">
+            <img src="images/b4.jpg">
+            <a href="" class="btn">Add to cart</a><br><br> 
+            <h2>CONTEXT FOUNDATION<br>$.34.00</h2>
+          </div>
+          <div class="sells-col">
+            <img src="images/b2.jpg">
+            <a href="" class="btn">Add to cart </a><br><br>
+            <h2>FENTY BEAUTY<br>$40.00</h2>
+          </div>
+          </div>
+        </div>
+        <a href=""class="btn">SHOP ALL BEST SELLERS &#8594;</a><br><br>
+      </section>
+
+       
+
+<!-----ABOUT--------->
+  <div class="about">
+  <div class="row">
+    <div class="col-2">   
+      <h1>ABOUT US</h1>
+      <p>With products designed to suit every ethnicity, skin tone,<br> complexion, occasion, and concern, Shanaya's Makeup has fast<br>become a go-to for skincare and beauty products to match your<br> every need. For all your faces.</p><br>
+     <a href="" class="btn">KNOW MORE &#8594;</a>
+    </div>
+  <div class="col-2">
+    <img src="images/blog1.jpg" width="500px">
+  </div>
+  </div>
+</div>
+
+<!-------video---->
+
+<div class="guide">
+  <h1>OUR STYLE GUIDE</h1>
+  <div class="row">
+  <div class="guide-col">
+    <iframe class="vd" width="500%" height="300"  src="https://www.youtube.com/embed/PSHafZQTDtI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+   <div class="guide-col">
+      <iframe class="vd" width="450%" height="300" src="https://www.youtube.com/embed/SbJeW5-rRRU?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  </div>
+  
+   <!------Signup-->
+   <div class="Signup">
+    <h1>Sign Up & Get the Inside Scoop</h1>
+    <p>Hello my love! Get the latest beauty news straight to your inbox.</p>
+    <input type="email" placeholder="What's your e-mail?" ><button class="btn1">SignUp</button>
+  </div>
+</div>
+  
+ <!---review-->
+ <div class="review">
+  <h1 class="title">REVIEW</h1>
+  <hr>
+    <div class="row">
+      <div class="review-col">
+        <i class="fa fa-quote-left"></i>
+        <p>I really love this blush,
+         <br>it has little sparkles and the<br>
+          shape of the rose looks great
+        </p>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i> 
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half"></i><br>
+        <img src="images/u1.jpg">
+        <h2>Seon Parker</h2>
+      </div>
+      <div class="review-col">
+        <i class="fa fa-quote-left"></i>
+        <p>I love the shape and
+         <br>look of the highlighter.<br>
+          The color is beautiful!!
+        </p>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i> 
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i><br>
+        <img src="images/u2.jpg">
+        <h2>Jennifer Lopez</h2>
+    </div>
+    <div class="review-col">
+      <i class="fa fa-quote-left"></i>
+      <p>It gives you an absolute <br>beautiful
+       glow with that hint of <br>changing
+        color
+      </p>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i> 
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i><br>
+      <img src="images/u3.jpg">
+      <h2>Mabel Joe</h2>
+  </div>
+</div>
+</div>
+  
+ 
+   
+
+<!-------Approved---->
+<div class="approve">
+<div class="row">
+  <div class="approve-col">
+    <img src="images/cod.png">
+  </div>
+  <div class="approve-col">
+    <img src="images/cod1.png">
+  </div>
+  <div class="approve-col">
+    <img src="images/cod2.png">
+  </div>
+  <div class="approve-col">
+    <img src="images/cod3.png">
+  </div>
+  </div>
+  </div>
+ 
+
+<div class="happ">
+  <h1>OVER 3 MILLION HAPPY CUSTOMER</h1>
+</div>
+
+ <div class="footer">
+      <div class="row">
+        <div class="footer-col-1">
+          <h1>ACCOUNT</h1>
+          <ul>
+          <li>MY Account</li>
+          <li>Check Order</li>
+          </ul>
+        </div>
+        <div class="footer-col-1">
+          <h1>ABOUT SHANAYA'S</h1>
+          <ul>
+          <li>About Shanaya's Beauty</li>
+          <li>About WISHFUL</li>
+          </ul>
+        </div>
+        <div class="footer-col-1">
+          <h1>CUSTOMER SERVICE</h1>
+           <ul>
+          <li>Contact Us</li>
+          <li>Shipping&Return</li>
+           </ul>
+        </div>
+        <div class="footer-col-1">
+        
+          <div class="icon"> 
+           <h1>CONNECT</h1>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube-play"></i>
+          </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+   </body>
+   </html>
+   
+
+
+            
+       
+              
+    
+    
+
+       
+    
+     
+    
+        
+       
